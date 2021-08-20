@@ -11,6 +11,6 @@ Begin with the [Solution overview](https://github.com/OfficeDev/microsoft-teams-
 
 When you're ready to try it out, or to use it in your own organization, follow the steps in the [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-requestateam/wiki/Deployment-guide).
 
-## Contributing 💖
+## 💖 Contributing 
 
 Please feel free to contribute to this solution or fork this project for your own needs.
