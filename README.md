@@ -3,7 +3,7 @@ This is a proof of concept Power App that was designed to be embedded within a S
 
 The look and feel has been designed to replicate that of the out of the box Web Part.
 
-This is a POC only and is provided as a sample to be customised/extended as required.
+The solution is functionally complete but is provided as a POC for you to customise/extend as required.
 
 ![image](https://user-images.githubusercontent.com/12395485/130237967-627e66c6-9ad3-4991-b14a-ced7e1207f21.png)
 
