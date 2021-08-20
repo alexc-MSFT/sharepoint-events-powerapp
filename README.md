@@ -10,3 +10,7 @@ The look and feel has been designed to replicate that of the out of the box Web 
 Begin with the [Solution overview](https://github.com/OfficeDev/microsoft-teams-apps-requestateam/wiki/Solution-overview) to read about what the app does and how it works.
 
 When you're ready to try it out, or to use it in your own organization, follow the steps in the [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-requestateam/wiki/Deployment-guide).
+
+## Contributing 💖
+
+Please feel free to contribute to this solution or fork this project for your own needs.
