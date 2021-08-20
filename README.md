@@ -4,3 +4,9 @@ This is a proof of concept Power App that was designed to be embedded within a S
 The look and feel has been designed to replicate that of the out of the box Web Part.
 
 ![image](https://user-images.githubusercontent.com/12395485/130237967-627e66c6-9ad3-4991-b14a-ced7e1207f21.png)
+
+## Getting started
+
+Begin with the [Solution overview](https://github.com/OfficeDev/microsoft-teams-apps-requestateam/wiki/Solution-overview) to read about what the app does and how it works.
+
+When you're ready to try out Request-a-team app, or to use it in your own organization, follow the steps in the [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-requestateam/wiki/Deployment-guide).
