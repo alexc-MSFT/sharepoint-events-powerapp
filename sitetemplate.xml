@@ -2,41 +2,7 @@
 <pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2021/03/ProvisioningSchema">
   <pnp:Preferences Generator="PnP.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null" />
   <pnp:Templates ID="CONTAINER-TEMPLATE-1E85B46E9E684A0F98A4A607DBF1B52A">
-    <pnp:ProvisioningTemplate ID="TEMPLATE-1E85B46E9E684A0F98A4A607DBF1B52A" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
-      <pnp:WebSettings RequestAccessEmail="" NoCrawl="false" WelcomePage="SitePages/Home.aspx" SiteLogo="{site}/_api/GroupService/GetGroupImage?id='8ab4bdf1-8c87-4b77-9c65-f9439a81285d'&amp;hash=637650575454462896" AlternateCSS="" MasterPageUrl="{masterpagecatalog}/seattle.master" CustomMasterPageUrl="{masterpagecatalog}/seattle.master" CommentsOnSitePagesDisabled="false" QuickLaunchEnabled="true" MembersCanShare="true" SearchScope="DefaultScope" SearchBoxInNavBar="Inherit" />
-      <pnp:SiteSettings AllowDesigner="true" SearchBoxInNavBar="Inherit" SearchCenterUrl="" />
-      <pnp:RegionalSettings AdjustHijriDays="0" AlternateCalendarType="None" CalendarType="Gregorian" Collation="25" FirstDayOfWeek="Monday" FirstWeekOfYear="2" LocaleId="2057" ShowWeeks="false" Time24="true" TimeZone="2" WorkDayEndHour="5:00PM" WorkDays="62" WorkDayStartHour="8:00AM" />
-      <pnp:PropertyBagEntries>
-        <pnp:PropertyBagEntry Key="contenttypesusagebackfillversion" Value="1" Overwrite="false" />
-        <pnp:PropertyBagEntry Key="contenttypessynctimestampversion" Value="1" Overwrite="false" />
-      </pnp:PropertyBagEntries>
-      <pnp:Navigation AddNewPagesToNavigation="true" CreateFriendlyUrlsForNewPages="true">
-        <pnp:GlobalNavigation NavigationType="Structural">
-          <pnp:StructuralNavigation RemoveExistingNodes="false" />
-        </pnp:GlobalNavigation>
-        <pnp:CurrentNavigation NavigationType="StructuralLocal">
-          <pnp:StructuralNavigation RemoveExistingNodes="false">
-            <pnp:NavigationNode Title="Home" Url="{site}" />
-            <pnp:NavigationNode Title="Conversations" Url="{site}/_layouts/15/groupstatus.aspx?Target=CONVERSATIONS&amp;Source=QuickLaunch" IsExternal="true" />
-            <pnp:NavigationNode Title="Notebook" Url="{site}/_layouts/15/groupstatus.aspx?Target=NOTEBOOK" IsExternal="true" />
-            <pnp:NavigationNode Title="Pages" Url="{site}/SitePages/Forms/ByAuthor.aspx" />
-            <pnp:NavigationNode Title="Documents" Url="{site}/Shared Documents/Forms/AllItems.aspx" />
-            <pnp:NavigationNode Title="Events" Url="{site}/Lists/Events/AllItems.aspx" />
-            <pnp:NavigationNode Title="Event Images" Url="{site}/EventImages" />
-            <pnp:NavigationNode Title="Event Attendees" Url="{site}/Lists/Event Attendees/AllItems.aspx" />
-            <pnp:NavigationNode Title="Recent" Url="{site}" />
-            <pnp:NavigationNode Title="Site contents" Url="{site}/_layouts/15/viewlsts.aspx" IsExternal="true" />
-            <pnp:NavigationNode Title="Recent" Url="" IsExternal="true">
-              <pnp:NavigationNode Title="Event Images" Url="{site}/EventImages/Forms/Thumbnails.aspx" />
-            </pnp:NavigationNode>
-          </pnp:StructuralNavigation>
-        </pnp:CurrentNavigation>
-      </pnp:Navigation>
-      <pnp:SiteFields>
-        <Field ID="{9889a80f-c9ec-41d8-a359-ac5fb5c4cfa2}" Name="_SPCallToAction" StaticName="_SPCallToAction" DisplayName="Call To Action" Type="Note" SourceID="http://schemas.microsoft.com/sharepoint/v3" Group="_Hidden" Description="" AllowDeletion="FALSE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInViewForms="FALSE" ShowInListSettings="FALSE" />
-        <Field ID="{ff41708b-e251-4237-a060-bea44657e8dc}" Name="_SPAssetFolderId" StaticName="_SPAssetFolderId" DisplayName="Asset Folder Id" Type="Number" SourceID="http://schemas.microsoft.com/sharepoint/v3" Group="_Hidden" Description="" ReadOnly="TRUE" AllowDeletion="FALSE" Hidden="TRUE" />
-        <Field ID="{3A8EE3F8-166B-4394-B3E2-E98DCF86A847}" Name="A2ODMountCount" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="A2ODMountCount" Hidden="TRUE" Group="_Hidden" ReadOnly="TRUE" Type="Lookup" List="Docs" ShowField="A2ODMountCount" DisplayName="A2OD Mount Count" FromBaseType="TRUE" DisplaceOnUpgrade="TRUE" FieldRef="ID" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" />
-      </pnp:SiteFields>
+    <pnp:ProvisioningTemplate ID="TEMPLATE-1E85B46E9E684A0F98A4A607DBF1B52A" Version="1" Scope="RootSite">
       <pnp:Lists>
         <pnp:ListInstance Title="Event Attendees" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/Event Attendees" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Event Attendees/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Event Attendees/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Event Attendees/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
           <pnp:ContentTypeBindings>
@@ -76,9 +42,6 @@
             <Field Type="Number" DisplayName="EventID" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" ID="{a9eb4ba2-d971-43db-baed-1a06ed6ae6ea}" SourceID="{{listid:Event Attendees}}" StaticName="EventID" Name="EventID" ColName="float1" RowOrdinal="0" />
             <Field Type="Text" DisplayName="Attendee Event ID" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{e4037262-f1f2-4ae4-9ba7-11c7e21ce36e}" SourceID="{{listid:Event Attendees}}" StaticName="AttendeeEventID" Name="AttendeeEventID" ColName="nvarchar6" RowOrdinal="0" CustomFormatter="" Version="1" />
           </pnp:Fields>
-          <pnp:Webhooks>
-            <pnp:Webhook ServerNotificationUrl="https://uksouth0.pushnp.svc.ms/notifications?token=68271398-c579-4518-9506-acbf584392f4" ExpiresInDays="1" />
-          </pnp:Webhooks>
         </pnp:ListInstance>
         <pnp:ListInstance Title="Event Images" Description="" DocumentTemplate="" TemplateType="109" Url="EventImages" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-52d4-45b3-b544-b1c71b620109" EnableAttachments="false" DefaultDisplayFormUrl="{site}/EventImages/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/EventImages/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/EventImages/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/itil.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
           <pnp:ContentTypeBindings>
@@ -164,9 +127,6 @@
             <pnp:FieldRef ID="de1baa4b-2117-473b-aa0c-4d824034142d" Name="RequiredField" DisplayName="Required Field" />
             <pnp:FieldRef ID="ac7bb138-02dc-40eb-b07a-84c15575b6e9" Name="Thumbnail" DisplayName="Thumbnail" />
           </pnp:FieldRefs>
-          <pnp:Webhooks>
-            <pnp:Webhook ServerNotificationUrl="https://uksouth0.pushnp.svc.ms/notifications?token=5114baf7-533f-443d-9eff-c336b60e2716" ExpiresInDays="1" />
-          </pnp:Webhooks>
         </pnp:ListInstance>
         <pnp:ListInstance Title="Events" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/Events" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Events/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Events/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Events/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
           <pnp:ContentTypeBindings>
@@ -217,17 +177,8 @@
             <Field DisplayName="Event Link" Format="Hyperlink" IsModern="TRUE" Name="EventLink" Title="Event Link" Type="URL" ID="{bbee6659-e98e-462d-86ca-dcc62cf83ded}" SourceID="{{listid:Events}}" StaticName="EventLink" ColName="nvarchar9" RowOrdinal="0" ColName2="nvarchar10" RowOrdinal2="0" />
             <Field CommaSeparator="TRUE" DisplayName="Registrations" Format="Dropdown" IsModern="TRUE" Name="Registrations" Percentage="FALSE" Title="Registrations" Type="Number" ID="{579a67f9-ebd2-4e92-9348-510e331d6013}" SourceID="{{listid:Events}}" StaticName="Registrations" ColName="float2" RowOrdinal="0" />
           </pnp:Fields>
-          <pnp:Webhooks>
-            <pnp:Webhook ServerNotificationUrl="https://uksouth0.pushnp.svc.ms/notifications?token=1eeb531c-bc26-4738-8e35-d72ad57e851b" ExpiresInDays="1" />
-          </pnp:Webhooks>
         </pnp:ListInstance>
       </pnp:Lists>
-      <pnp:Features>
-        <pnp:WebFeatures>
-          <pnp:Feature ID="780ac353-eaf8-4ac2-8c47-536d93c03fd6" />
-        </pnp:WebFeatures>
-      </pnp:Features>
-      <pnp:Header Layout="Standard" ShowSiteTitle="false" ShowSiteNavigation="false" />
     </pnp:ProvisioningTemplate>
   </pnp:Templates>
 </pnp:Provisioning>
