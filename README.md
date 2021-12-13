@@ -9,7 +9,7 @@ The look and feel has been designed to replicate that of the out of the box Web 
 
 The solution is functionally complete but is provided as a POC for you to customise/extend as required.
 
-![image](https://user-images.githubusercontent.com/12395485/130237967-627e66c6-9ad3-4991-b14a-ced7e1207f21.png)
+![image](https://user-images.githubusercontent.com/12395485/145835001-1335e710-0638-4ae1-90e7-00ae668daad1.png)
 
 ## Getting started
 
