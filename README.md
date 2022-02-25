@@ -1,3 +1,5 @@
+# This has now been moved to the [pnp Power Apps Samples repo](https://github.com/pnp/powerapps-samples/tree/main/samples/sharepoint-events). IT WILL NO LONGER BE UPDATED HERE. 
+
 # SharePoint Event Registration Power App
 
 | [Solution Overview](https://github.com/alexc-MSFT/sharepoint-events-powerapp/wiki/Solution-Overview) | [Deployment](https://github.com/alexc-MSFT/sharepoint-events-powerapp/wiki/Deployment) | [Points to Note](https://github.com/alexc-MSFT/sharepoint-events-powerapp/wiki/Points-to-Note) |
